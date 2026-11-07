@@ -14,35 +14,33 @@
 </p>
 
 **Dotnet Pro Pack** — это набор расширений (extension pack) для Visual Studio Code, который
-собирает в одном месте всё необходимое для профессиональной .NET-разработки: C#, MAUI,
+собирает в одном месте всё необходимое для профессиональной .NET-разработки: C#, F#, MAUI,
 Avalonia, Uno Platform, OpenSilver, Unity, MonoGame, Tizen, .NET nanoFramework, .NET Aspire,
-контейнеры, работу с базами данных и API, диаграммы и инструменты продуктивности.
+контейнеры, работу с базами данных и API, GitHub workflow, удалённую разработку, AI-ассистентов,
+диаграммы и инструменты продуктивности.
 
 > Одним кликом вы получаете готовую, согласованную среду для разработки .NET-приложений
 > в VS Code — без ручного поиска и установки десятков расширений.
 
-## 🚀 Установка
-
-1. Откройте Visual Studio Code.
-2. Перейдите в раздел **Extensions** (`Ctrl+Shift+X`).
-3. Найдите **Dotnet Pro Pack** и нажмите **Install**.
-
-Или из командной строки:
-
-```bash
-code --install-extension dimanrus.dotnet-pro-pack-vscode
-```
-
-Все расширения из набора будут установлены автоматически.
+> ℹ️ **Не обязательно устанавливать весь набор.** Не все делают игры или какой-то
+> определённый тип приложений, поэтому любое расширение из таблиц ниже можно установить
+> отдельно — достаточно нажать **Install** на том, которое вам понравилось.
 
 ## 🧩 Что входит в набор
 
-### 💜 .NET и C#
+### 💜 .NET, C# и F#
 
 | Расширение | Описание |
 | --- | --- |
 | [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) | Поддержка языка C#: IntelliSense, отладка, рефакторинг, навигация |
 | [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) | Решения, проекты, тестирование и запуск приложений .NET |
+| [Ionide для F#](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) | Поддержка языка F#: IntelliSense, подсказки, подсветка ошибок, рефакторинг |
+
+### 🤖 AI-ассистенты
+
+| Расширение | Описание |
+| --- | --- |
+| [DeepSeek V4 for Copilot](https://marketplace.visualstudio.com/items?itemName=Vizards.deepseek-v4-for-copilot) | Модели DeepSeek V4 для GitHub Copilot Chat |
 
 ### 🎨 Кроссплатформенная разработка и UI
 
@@ -74,6 +72,20 @@ code --install-extension dimanrus.dotnet-pro-pack-vscode
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | Совместное редактирование и отладка в реальном времени |
 | [NuGet Workbench](https://marketplace.visualstudio.com/items?itemName=nuget-workbench.nuget-workbench) | Управление пакетами NuGet |
 
+### 🔀 Git и GitHub
+
+| Расширение | Описание |
+| --- | --- |
+| [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) | Управление workflow и запусками GitHub Actions |
+| [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | Работа с pull request'ами и issue на GitHub |
+
+### 🌐 Удалённая разработка
+
+| Расширение | Описание |
+| --- | --- |
+| [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) | Открытие папок на удалённой машине по SSH |
+| [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer) | Просмотр и управление SSH- и удалёнными целями |
+
 ### 🗄️ Данные, API и утилиты
 
 | Расширение | Описание |
@@ -82,8 +94,17 @@ code --install-extension dimanrus.dotnet-pro-pack-vscode
 | [Redis Client](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-redis-client) | Клиент Redis |
 | [Postman for VS Code](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) | Тестирование и отладка HTTP API |
 | [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) | Подсветка и работа с CSV/TSV |
+| [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) | Исследование, преобразование и анализ табличных данных |
+| [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) | Редактирование бинарных файлов в hex-режиме |
 | [Speedscope](https://marketplace.visualstudio.com/items?itemName=sransara.speedscope-in-vscode) | Визуализация профилей производительности |
 | [SandDance](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) | Визуализация и исследование данных |
+
+### ⚡ Продуктивность
+
+| Расширение | Описание |
+| --- | --- |
+| [Better Todo Tree](https://marketplace.visualstudio.com/items?itemName=FanaticPythoner.better-todo-tree) | Сбор TODO, FIXME и других меток в дереве |
+| [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) | Красивые скриншоты фрагментов кода |
 
 ### 📊 Диаграммы и визуальное моделирование
 

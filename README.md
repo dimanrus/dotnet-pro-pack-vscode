@@ -14,35 +14,32 @@
 </p>
 
 **Dotnet Pro Pack** is an extension pack for Visual Studio Code that brings together everything
-you need for professional .NET development: C#, MAUI, Avalonia, Uno Platform, OpenSilver,
+you need for professional .NET development: C#, F#, MAUI, Avalonia, Uno Platform, OpenSilver,
 Unity, MonoGame, Tizen, .NET nanoFramework, .NET Aspire, containers, databases and APIs,
-diagrams, and productivity tools.
+GitHub workflows, remote development, AI assistants, diagrams, and productivity tools.
 
 > One click gives you a complete, consistent .NET development environment in VS Code —
 > no need to find and install dozens of extensions by hand.
 
-## 🚀 Installation
-
-1. Open Visual Studio Code.
-2. Go to the **Extensions** view (`Ctrl+Shift+X`).
-3. Search for **Dotnet Pro Pack** and click **Install**.
-
-Or from the command line:
-
-```bash
-code --install-extension dimanrus.dotnet-pro-pack-vscode
-```
-
-All bundled extensions are installed automatically.
+> ℹ️ **You don't have to install the whole pack.** Not everyone builds games or a particular
+> type of app, so every extension in the tables below can also be installed on its own — just
+> click **Install** on the one you like.
 
 ## 🧩 What's inside
 
-### 💜 .NET and C#
+### 💜 .NET, C# and F#
 
 | Extension | Description |
 | --- | --- |
 | [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) | C# language support: IntelliSense, debugging, refactoring, navigation |
 | [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) | Solutions, projects, testing, and running .NET applications |
+| [Ionide for F#](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) | F# language support: IntelliSense, tooltips, error highlighting, refactoring |
+
+### 🤖 AI assistants
+
+| Extension | Description |
+| --- | --- |
+| [DeepSeek V4 for Copilot](https://marketplace.visualstudio.com/items?itemName=Vizards.deepseek-v4-for-copilot) | DeepSeek V4 models for GitHub Copilot Chat |
 
 ### 🎨 Cross-platform app development and UI
 
@@ -74,6 +71,20 @@ All bundled extensions are installed automatically.
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | Real-time collaborative editing and debugging |
 | [NuGet Workbench](https://marketplace.visualstudio.com/items?itemName=nuget-workbench.nuget-workbench) | NuGet package management |
 
+### 🔀 Git and GitHub
+
+| Extension | Description |
+| --- | --- |
+| [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) | Manage GitHub Actions workflows and runs |
+| [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | Review and manage pull requests and issues on GitHub |
+
+### 🌐 Remote development
+
+| Extension | Description |
+| --- | --- |
+| [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) | Open any folder on a remote machine over SSH |
+| [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer) | View and manage SSH and remote targets |
+
 ### 🗄️ Data, APIs, and utilities
 
 | Extension | Description |
@@ -82,8 +93,17 @@ All bundled extensions are installed automatically.
 | [Redis Client](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-redis-client) | Redis client |
 | [Postman for VS Code](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) | HTTP API testing and debugging |
 | [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) | CSV/TSV highlighting and tooling |
+| [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) | Explore, transform, and analyze tabular data |
+| [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) | Hex editing for binary files |
 | [Speedscope](https://marketplace.visualstudio.com/items?itemName=sransara.speedscope-in-vscode) | Performance profile visualization |
 | [SandDance](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) | Data visualization and exploration |
+
+### ⚡ Productivity
+
+| Extension | Description |
+| --- | --- |
+| [Better Todo Tree](https://marketplace.visualstudio.com/items?itemName=FanaticPythoner.better-todo-tree) | Collect TODO, FIXME, and other tags in a tree view |
+| [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) | Take beautiful screenshots of your code |
 
 ### 📊 Diagrams and visual modeling
 
