@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: package",
+      "type": "shell",
+      "command": "npm run package",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "npm: publish",
+      "type": "shell",
+      "command": "npm run publish",
+      "problemMatcher": []
+    }
+  ]
+}

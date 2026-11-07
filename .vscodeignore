@@ -1,0 +1,9 @@
+.vscode/**
+.gitignore
+.git/**
+.github/**
+README.ru.md
+node_modules/**
+*.vsix
+**/.DS_Store
+icon.svg

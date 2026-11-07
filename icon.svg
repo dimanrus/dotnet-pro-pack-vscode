@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#6E4BF0"/>
+      <stop offset="0.5" stop-color="#4E1FB5"/>
+      <stop offset="1" stop-color="#250A56"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="0.3" cy="0.18" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="body" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#F0EAFF"/>
+      <stop offset="1" stop-color="#C3B2EE"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2D7FF"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4B1FA8"/>
+      <stop offset="1" stop-color="#2A0B60"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A98AFF"/>
+      <stop offset="1" stop-color="#43128F"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#FBFBFE"/>
+      <stop offset="0.5" stop-color="#D3D8E6"/>
+      <stop offset="1" stop-color="#A8AFC4"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.55" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#42148F"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#F2ECFF"/>
+      <stop offset="1" stop-color="#D6C8FF"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="tinyBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <g>
+    <rect x="40" y="40" width="944" height="944" rx="216" fill="url(#bgGrad)"/>
+    <rect x="40" y="40" width="944" height="944" rx="216" fill="url(#bgGlow)"/>
+    <rect x="44" y="44" width="936" height="936" rx="212" fill="none"
+          stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="6"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="522" cy="788" rx="286" ry="40" fill="#10002B" fill-opacity="0.5"
+           filter="url(#softShadow)"/>
+
+  <!-- feet -->
+  <g fill="#3A1379">
+    <rect x="300" y="726" width="92" height="52" rx="18"/>
+    <rect x="632" y="726" width="92" height="52" rx="18"/>
+  </g>
+
+  <!-- extruded side (depth) -->
+  <rect x="244" y="400" width="560" height="364" rx="44" fill="url(#side)"/>
+
+  <!-- handle -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 400 422 V 366 A 112 112 0 0 1 624 366 V 422"
+          stroke="#2A0B60" stroke-width="42"/>
+    <path d="M 400 422 V 366 A 112 112 0 0 1 624 366 V 422"
+          stroke="url(#handle)" stroke-width="32"/>
+    <path d="M 402 372 A 110 110 0 0 1 622 372"
+          stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="9"/>
+  </g>
+
+  <!-- body -->
+  <rect x="232" y="384" width="560" height="364" rx="44" fill="url(#body)"/>
+  <rect x="232" y="384" width="560" height="364" rx="44" fill="none"
+        stroke="#7C5FBF" stroke-opacity="0.35" stroke-width="4"/>
+
+  <!-- lid -->
+  <path d="M 232 428 A 44 44 0 0 1 276 384 H 748 A 44 44 0 0 1 792 428 V 478 H 232 Z"
+        fill="url(#lid)"/>
+  <path d="M 232 428 A 44 44 0 0 1 276 384 H 748 A 44 44 0 0 1 792 428"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="7"/>
+  <rect x="240" y="478" width="544" height="6" fill="#8E77C9" fill-opacity="0.45"/>
+  <rect x="240" y="486" width="544" height="4" fill="#FFFFFF" fill-opacity="0.55"/>
+
+  <!-- rivets -->
+  <g>
+    <circle cx="292" cy="412" r="12" fill="#D8CCF8"/>
+    <circle cx="292" cy="412" r="5" fill="#9B87CF" fill-opacity="0.8"/>
+    <circle cx="732" cy="412" r="12" fill="#D8CCF8"/>
+    <circle cx="732" cy="412" r="5" fill="#9B87CF" fill-opacity="0.8"/>
+  </g>
+
+  <!-- latch -->
+  <g>
+    <rect x="470" y="440" width="84" height="96" rx="24" fill="#2A0B60" fill-opacity="0.35"
+          filter="url(#tinyBlur)" transform="translate(0, 8)"/>
+    <rect x="470" y="440" width="84" height="96" rx="24" fill="url(#metal)"/>
+    <rect x="470" y="440" width="84" height="96" rx="24" fill="none"
+          stroke="#8D93A8" stroke-opacity="0.65" stroke-width="3"/>
+    <rect x="502" y="470" width="20" height="30" rx="10" fill="#414759" fill-opacity="0.85"/>
+    <rect x="476" y="446" width="72" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.55"/>
+  </g>
+
+  <!-- name plate -->
+  <g>
+    <rect x="288" y="524" width="448" height="188" rx="32" fill="#2A0B60" fill-opacity="0.30"
+          filter="url(#tinyBlur)" transform="translate(0, 7)"/>
+    <rect x="288" y="524" width="448" height="188" rx="32" fill="url(#plate)"/>
+    <rect x="288" y="524" width="448" height="188" rx="32" fill="none"
+          stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="3"/>
+    <rect x="304" y="538" width="416" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.10"/>
+
+    <text x="512" y="654" font-family="DejaVu Sans, Segoe UI, sans-serif" font-weight="700"
+          font-size="130" letter-spacing="2" text-anchor="middle"
+          fill="#1C0440" fill-opacity="0.55" filter="url(#tinyBlur)" transform="translate(0, 6)">.NET</text>
+    <text x="512" y="648" font-family="DejaVu Sans, Segoe UI, sans-serif" font-weight="700"
+          font-size="130" letter-spacing="2" text-anchor="middle" fill="url(#ink)">.NET</text>
+  </g>
+</svg>

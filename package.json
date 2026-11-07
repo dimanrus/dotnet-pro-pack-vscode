@@ -1,0 +1,85 @@
+{
+  "name": "dotnet-pro-pack-vscode",
+  "displayName": "Dotnet Pro Pack",
+  "description": "Ultimate extension pack for .NET developers in Visual Studio Code: C#, MAUI, Avalonia, Uno Platform, Aspire, containers, databases, diagrams and productivity tools.",
+  "version": "1.0.0",
+  "publisher": "dimanrus",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "package:pre-release": "vsce package --pre-release"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "dotnet",
+    ".net",
+    "csharp",
+    "c#",
+    "extension pack",
+    "maui",
+    "avalonia",
+    "uno platform",
+    "aspire",
+    "nanoframework",
+    "unity",
+    "monogame",
+    "tizen",
+    "containers",
+    "productivity"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#512BD4",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimanrus/dotnet-pro-pack-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/dimanrus/dotnet-pro-pack-vscode/issues"
+  },
+  "homepage": "https://github.com/dimanrus/dotnet-pro-pack-vscode#readme",
+  "extensionPack": [
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit",
+    "dimanrus.dev-tools-vscode",
+    "dimanrus.monitor-dotnet",
+    "dimanrus.exploring-collections",
+    "microsoft-aspire.aspire-vscode",
+    "dimanrus.ilasm-dotnet",
+    "ms-dotnettools.dotnet-maui",
+    "banditoth.VSCode-MAUI-Archive",
+    "nanoframework.vscode-nanoframework",
+    "AvaloniaTeam.vscode-avalonia",
+    "unoplatform.vscode",
+    "DBCode.dbcode",
+    "VisualStudioToolsForUnity.vstuc",
+    "r88.monogame",
+    "CaspianTools.caspian-emulator",
+    "ms-azuretools.vscode-containers",
+    "hediet.vscode-drawio",
+    "figma.figma-vscode-extension",
+    "Postman.postman-for-vscode",
+    "cweijan.vscode-redis-client",
+    "MS-vsliveshare.vsliveshare",
+    "nuget-workbench.nuget-workbench",
+    "userware.vscode-opensilver",
+    "mechatroner.rainbow-csv",
+    "sransara.speedscope-in-vscode",
+    "tizen.vscode-tizen-csharp",
+    "TizenProfiler.tmp-vscode-ext",
+    "msrvida.vscode-sanddance",
+    "pomdtr.excalidraw-editor"
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.0"
+  }
+}
